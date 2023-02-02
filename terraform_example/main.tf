@@ -10,9 +10,10 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region     = "eu-west-1"
-  secret_key = "wJDMzUxLFUgiyguuWwHQXzKwhnevbPgVpvLHsPeu"
-  access_key = "AKIAREH42YLW4IECCU6F"
+  secret_key = "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"
+  access_key = "AKIAREH42YLWST7TOKPM"
 }
+
 
 
 module "instances" {
@@ -30,4 +31,4 @@ module "network" {
   aws_instance_web_1_id = module.instances.aws_instance_web_1_id
 
 }
-#dfkljsdgffghfghfghyuikdfgdfg
+#dfkljsdgffghfghfghyuikdfgdfggj
