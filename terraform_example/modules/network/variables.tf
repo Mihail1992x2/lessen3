@@ -1,1 +1,0 @@
-variable "aws_instance_web_1_id" {}
